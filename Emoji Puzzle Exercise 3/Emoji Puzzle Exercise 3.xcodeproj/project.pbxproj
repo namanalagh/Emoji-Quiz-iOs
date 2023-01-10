@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90FE763296C2B3A009E8D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FE762296C2B3A009E8D44 /* AppDelegate.swift */; };
+		C90FE765296C2B3A009E8D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FE764296C2B3A009E8D44 /* SceneDelegate.swift */; };
+		C90FE767296C2B3A009E8D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FE766296C2B3A009E8D44 /* ViewController.swift */; };
+		C90FE76A296C2B3A009E8D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90FE768296C2B3A009E8D44 /* Main.storyboard */; };
+		C90FE76C296C2B3B009E8D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90FE76B296C2B3B009E8D44 /* Assets.xcassets */; };
+		C90FE76F296C2B3B009E8D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90FE76D296C2B3B009E8D44 /* LaunchScreen.storyboard */; };
+		C90FE77A296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FE779296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3Tests.swift */; };
+		C90FE784296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FE783296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITests.swift */; };
+		C90FE786296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FE785296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITestsLaunchTests.swift */; };
+		C981C5FB296C84C0005B929C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981C5FA296C84C0005B929C /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C90FE776296C2B3B009E8D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90FE757296C2B3A009E8D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90FE75E296C2B3A009E8D44;
+			remoteInfo = "Emoji Puzzle Exercise 3";
+		};
+		C90FE780296C2B3B009E8D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90FE757296C2B3A009E8D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90FE75E296C2B3A009E8D44;
+			remoteInfo = "Emoji Puzzle Exercise 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C90FE75F296C2B3A009E8D44 /* Emoji Puzzle Exercise 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Puzzle Exercise 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90FE762296C2B3A009E8D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C90FE764296C2B3A009E8D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C90FE766296C2B3A009E8D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C90FE769296C2B3A009E8D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C90FE76B296C2B3B009E8D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C90FE76E296C2B3B009E8D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C90FE770296C2B3B009E8D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90FE775296C2B3B009E8D44 /* Emoji Puzzle Exercise 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji Puzzle Exercise 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90FE779296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_Puzzle_Exercise_3Tests.swift; sourceTree = "<group>"; };
+		C90FE77F296C2B3B009E8D44 /* Emoji Puzzle Exercise 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji Puzzle Exercise 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90FE783296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_Puzzle_Exercise_3UITests.swift; sourceTree = "<group>"; };
+		C90FE785296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_Puzzle_Exercise_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C981C5FA296C84C0005B929C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90FE75C296C2B3A009E8D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90FE772296C2B3B009E8D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90FE77C296C2B3B009E8D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90FE756296C2B3A009E8D44 = {
+			isa = PBXGroup;
+			children = (
+				C90FE761296C2B3A009E8D44 /* Emoji Puzzle Exercise 3 */,
+				C90FE778296C2B3B009E8D44 /* Emoji Puzzle Exercise 3Tests */,
+				C90FE782296C2B3B009E8D44 /* Emoji Puzzle Exercise 3UITests */,
+				C90FE760296C2B3A009E8D44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C90FE760296C2B3A009E8D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90FE75F296C2B3A009E8D44 /* Emoji Puzzle Exercise 3.app */,
+				C90FE775296C2B3B009E8D44 /* Emoji Puzzle Exercise 3Tests.xctest */,
+				C90FE77F296C2B3B009E8D44 /* Emoji Puzzle Exercise 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90FE761296C2B3A009E8D44 /* Emoji Puzzle Exercise 3 */ = {
+			isa = PBXGroup;
+			children = (
+				C90FE762296C2B3A009E8D44 /* AppDelegate.swift */,
+				C90FE764296C2B3A009E8D44 /* SceneDelegate.swift */,
+				C90FE766296C2B3A009E8D44 /* ViewController.swift */,
+				C981C5FA296C84C0005B929C /* Game.swift */,
+				C90FE768296C2B3A009E8D44 /* Main.storyboard */,
+				C90FE76B296C2B3B009E8D44 /* Assets.xcassets */,
+				C90FE76D296C2B3B009E8D44 /* LaunchScreen.storyboard */,
+				C90FE770296C2B3B009E8D44 /* Info.plist */,
+			);
+			path = "Emoji Puzzle Exercise 3";
+			sourceTree = "<group>";
+		};
+		C90FE778296C2B3B009E8D44 /* Emoji Puzzle Exercise 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C90FE779296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3Tests.swift */,
+			);
+			path = "Emoji Puzzle Exercise 3Tests";
+			sourceTree = "<group>";
+		};
+		C90FE782296C2B3B009E8D44 /* Emoji Puzzle Exercise 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C90FE783296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITests.swift */,
+				C90FE785296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITestsLaunchTests.swift */,
+			);
+			path = "Emoji Puzzle Exercise 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90FE75E296C2B3A009E8D44 /* Emoji Puzzle Exercise 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90FE789296C2B3B009E8D44 /* Build configuration list for PBXNativeTarget "Emoji Puzzle Exercise 3" */;
+			buildPhases = (
+				C90FE75B296C2B3A009E8D44 /* Sources */,
+				C90FE75C296C2B3A009E8D44 /* Frameworks */,
+				C90FE75D296C2B3A009E8D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emoji Puzzle Exercise 3";
+			productName = "Emoji Puzzle Exercise 3";
+			productReference = C90FE75F296C2B3A009E8D44 /* Emoji Puzzle Exercise 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C90FE774296C2B3B009E8D44 /* Emoji Puzzle Exercise 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90FE78C296C2B3B009E8D44 /* Build configuration list for PBXNativeTarget "Emoji Puzzle Exercise 3Tests" */;
+			buildPhases = (
+				C90FE771296C2B3B009E8D44 /* Sources */,
+				C90FE772296C2B3B009E8D44 /* Frameworks */,
+				C90FE773296C2B3B009E8D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90FE777296C2B3B009E8D44 /* PBXTargetDependency */,
+			);
+			name = "Emoji Puzzle Exercise 3Tests";
+			productName = "Emoji Puzzle Exercise 3Tests";
+			productReference = C90FE775296C2B3B009E8D44 /* Emoji Puzzle Exercise 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C90FE77E296C2B3B009E8D44 /* Emoji Puzzle Exercise 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90FE78F296C2B3B009E8D44 /* Build configuration list for PBXNativeTarget "Emoji Puzzle Exercise 3UITests" */;
+			buildPhases = (
+				C90FE77B296C2B3B009E8D44 /* Sources */,
+				C90FE77C296C2B3B009E8D44 /* Frameworks */,
+				C90FE77D296C2B3B009E8D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90FE781296C2B3B009E8D44 /* PBXTargetDependency */,
+			);
+			name = "Emoji Puzzle Exercise 3UITests";
+			productName = "Emoji Puzzle Exercise 3UITests";
+			productReference = C90FE77F296C2B3B009E8D44 /* Emoji Puzzle Exercise 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90FE757296C2B3A009E8D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C90FE75E296C2B3A009E8D44 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C90FE774296C2B3B009E8D44 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C90FE75E296C2B3A009E8D44;
+					};
+					C90FE77E296C2B3B009E8D44 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C90FE75E296C2B3A009E8D44;
+					};
+				};
+			};
+			buildConfigurationList = C90FE75A296C2B3A009E8D44 /* Build configuration list for PBXProject "Emoji Puzzle Exercise 3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90FE756296C2B3A009E8D44;
+			productRefGroup = C90FE760296C2B3A009E8D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90FE75E296C2B3A009E8D44 /* Emoji Puzzle Exercise 3 */,
+				C90FE774296C2B3B009E8D44 /* Emoji Puzzle Exercise 3Tests */,
+				C90FE77E296C2B3B009E8D44 /* Emoji Puzzle Exercise 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C90FE75D296C2B3A009E8D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90FE76F296C2B3B009E8D44 /* LaunchScreen.storyboard in Resources */,
+				C90FE76C296C2B3B009E8D44 /* Assets.xcassets in Resources */,
+				C90FE76A296C2B3A009E8D44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90FE773296C2B3B009E8D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90FE77D296C2B3B009E8D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90FE75B296C2B3A009E8D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90FE767296C2B3A009E8D44 /* ViewController.swift in Sources */,
+				C90FE763296C2B3A009E8D44 /* AppDelegate.swift in Sources */,
+				C90FE765296C2B3A009E8D44 /* SceneDelegate.swift in Sources */,
+				C981C5FB296C84C0005B929C /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90FE771296C2B3B009E8D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90FE77A296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90FE77B296C2B3B009E8D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90FE784296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITests.swift in Sources */,
+				C90FE786296C2B3B009E8D44 /* Emoji_Puzzle_Exercise_3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90FE777296C2B3B009E8D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90FE75E296C2B3A009E8D44 /* Emoji Puzzle Exercise 3 */;
+			targetProxy = C90FE776296C2B3B009E8D44 /* PBXContainerItemProxy */;
+		};
+		C90FE781296C2B3B009E8D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90FE75E296C2B3A009E8D44 /* Emoji Puzzle Exercise 3 */;
+			targetProxy = C90FE780296C2B3B009E8D44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C90FE768296C2B3A009E8D44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90FE769296C2B3A009E8D44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C90FE76D296C2B3B009E8D44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90FE76E296C2B3B009E8D44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90FE787296C2B3B009E8D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C90FE788296C2B3B009E8D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C90FE78A296C2B3B009E8D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Emoji Puzzle Exercise 3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.Emoji-Puzzle-Exercise-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C90FE78B296C2B3B009E8D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Emoji Puzzle Exercise 3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.Emoji-Puzzle-Exercise-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C90FE78D296C2B3B009E8D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.Emoji-Puzzle-Exercise-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji Puzzle Exercise 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emoji Puzzle Exercise 3";
+			};
+			name = Debug;
+		};
+		C90FE78E296C2B3B009E8D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.Emoji-Puzzle-Exercise-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji Puzzle Exercise 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emoji Puzzle Exercise 3";
+			};
+			name = Release;
+		};
+		C90FE790296C2B3B009E8D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.Emoji-Puzzle-Exercise-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emoji Puzzle Exercise 3";
+			};
+			name = Debug;
+		};
+		C90FE791296C2B3B009E8D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.Emoji-Puzzle-Exercise-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emoji Puzzle Exercise 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90FE75A296C2B3A009E8D44 /* Build configuration list for PBXProject "Emoji Puzzle Exercise 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90FE787296C2B3B009E8D44 /* Debug */,
+				C90FE788296C2B3B009E8D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90FE789296C2B3B009E8D44 /* Build configuration list for PBXNativeTarget "Emoji Puzzle Exercise 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90FE78A296C2B3B009E8D44 /* Debug */,
+				C90FE78B296C2B3B009E8D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90FE78C296C2B3B009E8D44 /* Build configuration list for PBXNativeTarget "Emoji Puzzle Exercise 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90FE78D296C2B3B009E8D44 /* Debug */,
+				C90FE78E296C2B3B009E8D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90FE78F296C2B3B009E8D44 /* Build configuration list for PBXNativeTarget "Emoji Puzzle Exercise 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90FE790296C2B3B009E8D44 /* Debug */,
+				C90FE791296C2B3B009E8D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90FE757296C2B3A009E8D44 /* Project object */;
+}
